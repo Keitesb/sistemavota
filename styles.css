@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: maroon;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+   background-image: linear-gradient(to right, #800020, black);
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.candidate {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.vote-btn {
+  background-color: brown;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.votes {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+img{
+margin:75px;
+ max-width: 30%;
+  max-height: 30%;
+}
